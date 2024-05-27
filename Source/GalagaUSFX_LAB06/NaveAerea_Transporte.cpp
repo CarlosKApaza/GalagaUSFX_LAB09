@@ -21,7 +21,7 @@ ANaveAerea_Transporte::ANaveAerea_Transporte()
 	energia = 10; // Inicializar la energia que tendra la nave
 	resistencia = 30; // Inicializar la resistencia que tendra la nave
 }
-
+// 
 void ANaveAerea_Transporte::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
