@@ -43,7 +43,7 @@ void ANaveAerea_Caza::Mover(float DeltaTime)
     float NuevaPosicionY = PosicionActual.Y + (VelocidadYCaza * DeltaTime);
 
     // Verificamos si la nave ha alcanzado el límite superior o inferior
-    if (NuevaPosicionY <= -1000.0f || NuevaPosicionY >= 1000.0f )
+    if (NuevaPosicionY <= -1100.0f || NuevaPosicionY >= 1100.0f )
     {
         // Cambiamos la dirección multiplicando por -1
         VelocidadYCaza *= -1.0f;

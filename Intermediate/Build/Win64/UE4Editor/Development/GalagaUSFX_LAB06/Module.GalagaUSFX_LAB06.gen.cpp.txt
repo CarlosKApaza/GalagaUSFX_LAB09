@@ -65,11 +65,6 @@ D:\Mi Repositorio Final\GalagaUSFX_Trabajo03_SegundoParcial\GalagaUSFX_Trabajo02
 D:/Mi Repositorio Final/GalagaUSFX_Trabajo03_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/Escudo.gen.cpp
 D:\Mi Repositorio Final\GalagaUSFX_Trabajo03_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Source\GalagaUSFX_LAB06/Escudo.h
 D:\Mi Repositorio Final\GalagaUSFX_Trabajo03_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\Escudo.generated.h
-D:/Mi Repositorio Final/GalagaUSFX_Trabajo03_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/FacadeColision.gen.cpp
-D:\Mi Repositorio Final\GalagaUSFX_Trabajo03_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Source\GalagaUSFX_LAB06/FacadeColision.h
-D:\Mi Repositorio Final\GalagaUSFX_Trabajo03_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\FacadeColision.generated.h
-D:/Mi Repositorio Final/GalagaUSFX_Trabajo03_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/GalagaUSFX_LAB06.init.gen.cpp
-D:/Mi Repositorio Final/GalagaUSFX_Trabajo03_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/GalagaUSFX_LAB06GameMode.gen.cpp
 D:/Mi Repositorio Final/GalagaUSFX_Trabajo03_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/GalagaUSFX_LAB06Pawn.gen.cpp
 D:\Mi Repositorio Final\GalagaUSFX_Trabajo03_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Source\GalagaUSFX_LAB06/GalagaUSFX_LAB06Pawn.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
@@ -81,6 +76,8 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 D:\Mi Repositorio Final\GalagaUSFX_Trabajo03_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\GalagaUSFX_LAB06Pawn.generated.h
 D:/Mi Repositorio Final/GalagaUSFX_Trabajo03_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/GalagaUSFX_LAB06Projectile.gen.cpp
 D:\Mi Repositorio Final\GalagaUSFX_Trabajo03_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Source\GalagaUSFX_LAB06/GalagaUSFX_LAB06Projectile.h
+D:\Mi Repositorio Final\GalagaUSFX_Trabajo03_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Source\GalagaUSFX_LAB06\Facade.h
+D:\Mi Repositorio Final\GalagaUSFX_Trabajo03_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\Facade.generated.h
 D:\Mi Repositorio Final\GalagaUSFX_Trabajo03_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\GalagaUSFX_LAB06Projectile.generated.h
 D:/Mi Repositorio Final/GalagaUSFX_Trabajo03_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/Hangar.gen.cpp
 D:\Mi Repositorio Final\GalagaUSFX_Trabajo03_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Source\GalagaUSFX_LAB06/Hangar.h

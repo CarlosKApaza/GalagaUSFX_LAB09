@@ -5,7 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "NaveEnemiga.h"
-#include "FacadeColision.h"
+
+#include "Facade.h"
 
 #include "GalagaUSFX_LAB06Projectile.generated.h"
 
@@ -42,6 +43,7 @@ public:
 
 public:
 	// Referencia al objeto FacadeColision
-	AFacadeColision* FacadeColision;
+	//AFacadeColision* FacadeColision;
+	AFacade* Facade;
 };
 

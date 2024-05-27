@@ -15,7 +15,7 @@
 #include "NaveTerrestre_Transporte.h"
 #include "NaveTerrestre_Artilleria.h"
 
-#include "FacadeColision.h"
+#include "Facade.h"
 
 AGalagaUSFX_LAB06Projectile::AGalagaUSFX_LAB06Projectile() 
 {
@@ -53,7 +53,6 @@ void AGalagaUSFX_LAB06Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* Ot
 
 	Destroy();
 
-	FacadeColision->DestruirNaves(HitComp, OtherActor, OtherComp, NormalImpulse, Hit);
-
+	Facade->DestruirNaves(HitComp, OtherActor, OtherComp, NormalImpulse, Hit);
 }
 

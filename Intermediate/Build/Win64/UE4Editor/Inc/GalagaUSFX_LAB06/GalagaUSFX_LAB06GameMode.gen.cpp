@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeGalagaUSFX_LAB06GameMode() {}
 	UPackage* Z_Construct_UPackage__Script_GalagaUSFX_LAB06();
 	GALAGAUSFX_LAB06_API UClass* Z_Construct_UClass_ABuilderPortaNavesAereasNiv1_NoRegister();
 	GALAGAUSFX_LAB06_API UClass* Z_Construct_UClass_ADirectorPortaNavesAereas_NoRegister();
-	GALAGAUSFX_LAB06_API UClass* Z_Construct_UClass_ANaveEnemiga_NoRegister();
+	GALAGAUSFX_LAB06_API UClass* Z_Construct_UClass_AFacade_NoRegister();
 // End Cross Module References
 	void AGalagaUSFX_LAB06GameMode::StaticRegisterNativesAGalagaUSFX_LAB06GameMode()
 	{
@@ -42,12 +42,10 @@ void EmptyLinkFunctionForGeneratedCodeGalagaUSFX_LAB06GameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DirectorPortaNavesAereas_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DirectorPortaNavesAereas;
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_TMClavesNavesEnemigas_ValueProp;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TMClavesNavesEnemigas_Key_KeyProp;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TMClavesNavesEnemigas_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Facade_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FMapPropertyParams NewProp_TMClavesNavesEnemigas;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Facade;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -84,22 +82,19 @@ void EmptyLinkFunctionForGeneratedCodeGalagaUSFX_LAB06GameMode() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_DirectorPortaNavesAereas = { "DirectorPortaNavesAereas", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGalagaUSFX_LAB06GameMode, DirectorPortaNavesAereas), Z_Construct_UClass_ADirectorPortaNavesAereas_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_DirectorPortaNavesAereas_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_DirectorPortaNavesAereas_MetaData)) };
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMClavesNavesEnemigas_ValueProp = { "TMClavesNavesEnemigas", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMClavesNavesEnemigas_Key_KeyProp = { "TMClavesNavesEnemigas_Key", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ANaveEnemiga_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMClavesNavesEnemigas_MetaData[] = {
-		{ "Comment", "// clave para las naves enemigas\n//int Puntaje; //Puntaje del jugador\n" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_Facade_MetaData[] = {
+		{ "Category", "FacadeShip" },
+		{ "Comment", "//void CrearEnemigosAleatoriamente(TArray<FString> TiposNaves, FVector PosicionInicial, FRotator RotacionNaves, float EspacioEntreNavesY, int CantidadNaves); //Funcion para crear enemigos aleatoriamente\n//void CrearEnemigos(); //Funcion para crear enemigos de un tipo especifico\n" },
 		{ "ModuleRelativePath", "GalagaUSFX_LAB06GameMode.h" },
-		{ "ToolTip", "clave para las naves enemigas\nint Puntaje; Puntaje del jugador" },
+		{ "ToolTip", "void CrearEnemigosAleatoriamente(TArray<FString> TiposNaves, FVector PosicionInicial, FRotator RotacionNaves, float EspacioEntreNavesY, int CantidadNaves); Funcion para crear enemigos aleatoriamente\nvoid CrearEnemigos(); Funcion para crear enemigos de un tipo especifico" },
 	};
 #endif
-	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMClavesNavesEnemigas = { "TMClavesNavesEnemigas", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGalagaUSFX_LAB06GameMode, TMClavesNavesEnemigas), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMClavesNavesEnemigas_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMClavesNavesEnemigas_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_Facade = { "Facade", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGalagaUSFX_LAB06GameMode, Facade), Z_Construct_UClass_AFacade_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_Facade_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_Facade_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_BuilderPortaNavesAereasNiv1,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_DirectorPortaNavesAereas,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMClavesNavesEnemigas_ValueProp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMClavesNavesEnemigas_Key_KeyProp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMClavesNavesEnemigas,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_Facade,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGalagaUSFX_LAB06GameMode>::IsAbstract,
@@ -128,7 +123,7 @@ void EmptyLinkFunctionForGeneratedCodeGalagaUSFX_LAB06GameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGalagaUSFX_LAB06GameMode, 2339442838);
+	IMPLEMENT_CLASS(AGalagaUSFX_LAB06GameMode, 402499720);
 	template<> GALAGAUSFX_LAB06_API UClass* StaticClass<AGalagaUSFX_LAB06GameMode>()
 	{
 		return AGalagaUSFX_LAB06GameMode::StaticClass();
