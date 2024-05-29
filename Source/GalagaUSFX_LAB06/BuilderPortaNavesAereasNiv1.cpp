@@ -41,6 +41,7 @@ void ABuilderPortaNavesAereasNiv1::ConstruirHangar()
 	Hangar = GetWorld()->SpawnActor<AHangar>(AHangar::StaticClass(), Location, Rotation);
 	Hangar->SetActorScale3D(Escala);
 	PortaNaveAerea->SetHangar(Hangar, "Hangar creado");
+	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Yellow, FString::Printf((TEXT("HANGAR CREADA"))));
 }
 
 void ABuilderPortaNavesAereasNiv1::ConstruirCentrodeMuniciones()
@@ -51,7 +52,8 @@ void ABuilderPortaNavesAereasNiv1::ConstruirCentrodeMuniciones()
 	
 	CentroMuniciones = GetWorld()->SpawnActor<ACentroMuniciones>(ACentroMuniciones::StaticClass(), Location, Rotation);
 	CentroMuniciones = GetWorld()->SpawnActor<ACentroMuniciones>(ACentroMuniciones::StaticClass(), Location2, Rotation);
-	PortaNaveAerea->SetCentrodeMuniciones(CentroMuniciones, "Centro de Municiones creada");
+	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Yellow, FString::Printf((TEXT("Centro de Municiones Creada"))));
+	PortaNaveAerea->SetCentrodeMuniciones(CentroMuniciones, "CENTRO DE MUNICIONES CREADA");
 
 }
 
@@ -60,6 +62,7 @@ void ABuilderPortaNavesAereasNiv1::ConstruirEscudos()
 	FVector Location = FVector(1027.9f, 1201.2f, 100.3f);
 	FRotator Rotation = FRotator(0.0f, 90.0f, 0.0f);
 	Escudo = GetWorld()->SpawnActor<AEscudo>(AEscudo::StaticClass(), Location, Rotation);
+	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Yellow, FString::Printf((TEXT("ESCUDO"))));
 	PortaNaveAerea->SetEscudos(Escudo, "1 Escudo creado");
 }
 
@@ -68,6 +71,7 @@ void ABuilderPortaNavesAereasNiv1::ConstruirMotor()
 	FVector Location = FVector(1306.0f, 1153.5f, 168.0f);
 	FRotator Rotation = FRotator(0.0f, 0.0f, 0.0f);
 	Motor = GetWorld()->SpawnActor<AMotor>(AMotor::StaticClass(), Location, Rotation);
+	GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Yellow, FString::Printf((TEXT("MOTOR CREADO"))));
 	PortaNaveAerea->SetMotor(Motor, "Motor creado");
 
 }

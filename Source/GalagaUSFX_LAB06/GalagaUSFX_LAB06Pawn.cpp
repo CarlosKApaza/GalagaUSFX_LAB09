@@ -168,7 +168,7 @@ void AGalagaUSFX_LAB06Pawn::ShotTimerExpired()
 void AGalagaUSFX_LAB06Pawn::Energia()
 {
 	EnergiaActiva = true;
-	MoveSpeed = 2000.0f;
+	MoveSpeed = 3500.0f;
 	// Configura un temporizador para llamar a EnergiaFinalizado después de 3 segundos
 	GetWorldTimerManager().SetTimer(TimerHandle_Energia, this, &AGalagaUSFX_LAB06Pawn::EnergiaFinalizado, 10.0f, false);
 }
